@@ -1,10 +1,10 @@
-# 🎢 Horizon Adventure Park Management System
+# Horizon Adventure Park Management System
 
 A C# console application designed to manage the daily operations of **Horizon Adventure Park**.
 
 The system provides a simple way for park staff to manage visitors, tickets, rides, reservations, and employees while enforcing important safety and operational rules.
 
-## 📌 Overview
+## Overview
 
 Horizon Adventure Park is replacing its paper-based visitor records and manual ride queues with a digital operations system.
 
@@ -12,15 +12,15 @@ This application simulates the core operations needed at ticket booths, ride ent
 
 The project was developed using **C#**, **.NET**, and **Object-Oriented Programming (OOP)** principles.
 
-## ✨ Features
+## Features
 
-### 👤 Visitor Management
+### Visitor Management
 
 * Register new visitors
 * Store visitor information and category
 * Prevent duplicate visitor registrations
 
-### 🎟️ Ticket Management
+### Ticket Management
 
 * Issue tickets to registered visitors
 * Support different ticket types and access tiers
@@ -28,7 +28,7 @@ The project was developed using **C#**, **.NET**, and **Object-Oriented Programm
 * Deactivate or update ticket status
 * Prevent the use of expired or cancelled tickets
 
-### 🎢 Ride Management
+### Ride Management
 
 * Add and manage rides
 * Define ride safety requirements
@@ -36,7 +36,7 @@ The project was developed using **C#**, **.NET**, and **Object-Oriented Programm
 * Update ride status
 * Support Open, Closed, and Under Maintenance states
 
-### ✅ Ride Eligibility
+### Ride Eligibility
 
 Before allowing access to a ride, the system checks:
 
@@ -50,7 +50,7 @@ Before allowing access to a ride, the system checks:
 
 If access is denied, the system provides a specific reason.
 
-### 📅 Reservations
+### Reservations
 
 * Create ride reservations
 * Cancel reservations
@@ -58,13 +58,13 @@ If access is denied, the system provides a specific reason.
 * Prevent reservations when capacity is reached
 * Prevent reservations for unavailable rides
 
-### 👷 Staff Management
+### Staff Management
 
 * Assign employees to rides or facilities
 * Track employee availability
 * Prevent conflicting employee assignments
 
-### ⚠️ Error Handling
+### Error Handling
 
 The system handles invalid operations with clear messages, including:
 
@@ -77,7 +77,7 @@ The system handles invalid operations with clear messages, including:
 * Conflicting staff assignments
 * Non-existing rides or visitors
 
-## 🛠️ Technologies
+## Technologies
 
 * C#
 * .NET
@@ -85,7 +85,7 @@ The system handles invalid operations with clear messages, including:
 * Visual Studio
 * Console Application
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository:
 
@@ -107,7 +107,7 @@ Alternatively, if the .NET SDK is installed, run:
 dotnet run
 ```
 
-## 💡 Main Workflow
+## Main Workflow
 
 When the application starts, staff can select operations from the main menu, such as:
 
@@ -125,11 +125,11 @@ When the application starts, staff can select operations from the main menu, suc
 
 The application continues running until the user chooses to exit.
 
-## 🧠 OOP Concepts
+## OOP Concepts
 
 The project applies Object-Oriented Programming concepts to organize the different entities and responsibilities of the system, including visitors, tickets, rides, reservations, and employees.
 
-## 📂 Project Purpose
+## Project Purpose
 
 This project demonstrates how C# and OOP can be used to model a real-world operational system while enforcing business rules, safety requirements, and consistent application state.
 
